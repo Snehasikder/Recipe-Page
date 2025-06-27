@@ -1,0 +1,71 @@
+body{
+ background-color: hsl(30, 54%, 90%);
+}
+.text{
+ font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.heading{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.box{
+  border-radius: 15px;
+  width: fit-content;
+  padding: 20px;
+  background-color:hsl(0, 0%, 100%);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+.container{
+  padding: 0.1rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+}
+h3{
+  color:hsl(332, 51%, 32%);
+}
+h1 , h2{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text{
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h2, li::marker{
+  color:  hsl(14, 45%, 36%);
+}
+li{
+  margin-bottom: 10px;
+}
+.image{
+  border-radius: 15px;
+}
+.nutrition{
+  /* justify-content: space-between; */
+  gap: 5px;
+}
+.row{
+  display: flex;
+  justify-content: space-between; 
+  gap: 17rem;
+  padding-left: 78px;
+  padding-right: 220px;
+  margin-top: 5px;
+}
+.num{
+  color: hsl(14, 45%, 36%);
+}
+.txt{
+  color: hsl(30, 10%, 34%);
+}
