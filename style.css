@@ -69,3 +69,27 @@ li{
 .txt{
   color: hsl(30, 10%, 34%);
 }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text,
+  .num,
+  .txt {
+    font-size: 14px;
+  }
+}
