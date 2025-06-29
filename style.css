@@ -69,6 +69,27 @@ li{
 .txt{
   color: hsl(30, 10%, 34%);
 }
+
+/* Responsive Typography & Spacing */
+@media (max-width: 768px) {
+  .box {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .row {
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .image {
+    max-height: 200px;
+  }
+}
 @media (max-width: 480px) {
   h1 {
     font-size: 1.75rem;
