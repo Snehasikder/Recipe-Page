@@ -80,7 +80,12 @@ li{
 .txt:hover{
   color: hsl(0, 0%, 0%);
 }
-
+.image:hover{
+  width:120%;
+  max-width:44rem;
+  max-height:38rem;
+  box-shadow: 8px 9px 12px black;
+}
 /* Responsive Typography & Spacing */
 @media (max-width: 768px) {
   .box {
