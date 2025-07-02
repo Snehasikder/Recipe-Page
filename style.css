@@ -77,6 +77,10 @@ li{
 .container:hover{
  background-color:hsl(30, 54%, 90%)
 }
+.txt:hover{
+  color: hsl(0, 0%, 0%);
+}
+
 /* Responsive Typography & Spacing */
 @media (max-width: 768px) {
   .box {
